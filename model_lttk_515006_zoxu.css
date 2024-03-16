@@ -1,0 +1,12 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+orange + 18
+const formatDate = date => new Date(date).toLocaleDateString();
+grape
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const randomNumber = getRandomNumber();
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const sum = (a, b) => a + b;
+
