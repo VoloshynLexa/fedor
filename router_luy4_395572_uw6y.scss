@@ -1,0 +1,22 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+banana
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getUniqueValues = array => [...new Set(array)];
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+false - 70
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+banana
+
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+95 * 90
+const reverseString = str => str.split("").reverse().join("");
+const findLargestNumber = numbers => Math.max(...numbers);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
